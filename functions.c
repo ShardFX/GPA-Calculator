@@ -55,7 +55,7 @@ void display_grade_values()
 int course_credits_value(void)
 {
 	int total_credits = 0;
-	printf("\nStep 2: \Enter the total number of credits for this course: ");
+	printf("\nStep 2: \n Enter the total number of credits for this course: ");
 	scanf("%d", &total_credits);
 	return total_credits;
 }
